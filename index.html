@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <!-- git hub用 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <title>Haku's Portfolio</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <!--ヘッダー-->
+  <header>
+    <div class="container">
+      <ul class="header_ul">
+        <li>
+          <div class="header_left">
+            <a href="">Portfolio</a>
+          </div>
+        </li>
+        <li>
+          <div class="header_right">
+            <ul>
+              <li><a href="" class="header_a">PROFILE</a></li>
+              <li><a href="" class="header_a">WORK</a></li>
+              <li><a href="" class="header_a">SERVICE</a></li>
+              <li><a href="" class="header_a">CONTACT</a></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div id="menuArea" class="menuArea">
+            <div id="menuBg" class="menuBg"></div>
+            <div class="menuWrapper">
+              <div class="menuContents">
+                <ul>
+                  <li><a href="">PROFILE</a></li>
+                  <li><a href="">WORK</a></li>
+                  <li><a href="">SERVICE</a></li>
+                  <li><a href="">CONTACT</a></li>
+                  <li class="sns_icons">
+                    <a href="https://twitter.com/Haku_4089">
+                      <i class="sns_icon fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/haku3715/">
+                      <i class="sns_icon fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Haku4089">
+                      <i class="sns_icon fab fa-github"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!--トップ-->
+  <div class="top">
+    <div class="container">
+      <ul class="top_ul">
+        <li>
+          <p>Welcome to</p>
+        </li>
+        <li>
+          <h2>My Portfolio</h2>
+        </li>
+        <li>
+          <a href="">お問い合わせ</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!--プロフィール-->
+  <div class="profile">
+    <h1 class="underline">PROFILE</h1>
+    <div class="container">
+      <div class="profile_card">
+        <ul class="profile_card_ul">
+          <li>
+            <img class="profile_icon" src="images/icon_haku.jpg" alt="icon">
+          </li>
+          <li>
+            <div class="profile_card_text">
+              <h2>Hello! I'm Haku!</h2>
+              <p>
+                はじめまして！<br>ポートフォリオをご覧いただき、ありがとうございます！<br><br>主にTwitterで活動をしているハクと申します。<br>プログラミングに興味があり、<br
+                  class="br">2020年4月から活動を始めました。
+              </p>
+            </div>
+            <ul class="icons_ul">
+              <li>
+                <a href="https://twitter.com/Haku_4089">
+                  <i class="sns_icon fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/haku3715/">
+                  <i class="sns_icon fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Haku4089">
+                  <i class="sns_icon fab fa-github"></i>
+                </a>
+              </li>
+          </li>
+        </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!--スキル-->
+
+  <div class="skill">
+    <h1 class="underline">SKILL</h1>
+    <div class="container">
+      <p class="skill_p">
+        現在のスキルです。<br>日々スキルアップに向けて学習をしています。
+      </p>
+      <ul class="skill_icons">
+        <li>
+          <div class="skill_icon">
+            <i class="fab fa-html5 fa-5x"></i>
+            <p>HTML</p>
+          </div>
+        </li>
+        <li>
+          <div class="skill_icon">
+            <i class="fab fa-css3-alt fa-5x"></i>
+            <p>CSS</p>
+          </div>
+        </li>
+        <li>
+          <div class="skill_icon">
+            <i class="fab fa-js fa-5x"></i>
+            <p>JavaScript / jQuery</p>
+          </div>
+        </li>
+        </li>
+    </div>
+  </div>
+  <!-- ワーク -->
+  <div class="works">
+    <h1 class="underline">WORK</h1>
+    <p class="works_p">詳細を見るにはクリック</p>
+    <div class="container">
+      <ul>
+        <li>
+          <div class="work_portfolio work" id="openModal">
+            <img src="images/screenshot.png" alt="">
+            <p>Portfolioサイト</p>
+          </div>
+          <div class="work">
+            <img src="images/coming soon.png" alt="">
+          </div>
+        </li>
+        <li class="work_li_none">
+          <div class="work">
+            <img src="images/coming soon.png" alt="">
+          </div>
+          <div class="work">
+            <img src="images/coming soon.png" alt="">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- モーダル -->
+
+  <div id="modalArea" class="modalArea">
+    <div id="modalBg" class="modalBg"></div>
+    <div class="modalWrapper">
+      <div class="modalContents">
+        <img src="images/screenshot.png" alt="">
+        <h2 class="modalContents_h2">Portfolioサイト</h2>
+        <p class="modalContents_p">スクロールできます</p>
+        <div class="modal_text">
+          <h3>制作期間：</h3>
+          <p>約１ヶ月</p>
+        </div>
+        <div class="modal_text">
+          <h3>使用した言語：</h3>
+          <p>HTML/CSS JavaScript</p>
+        </div>
+        <div class="modal_text">
+          <h3>内容：</h3>
+          <p>
+            現在習得しているスキルを最大限活用して制作いたしました。<br>特に、アニメーションやスライドショーにこだわりました。
+          </p>
+        </div>
+
+      </div>
+      <div id="closeModal" class="closeModal">
+        閉じる
+      </div>
+      <a class="modal_a" href="">サイトに行く</a>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- サービス -->
+
+  <div class="services">
+    <h1 class="underline">SERVICE</h1>
+    <div class="container">
+      <ul>
+        <li>
+          <div class="service">
+            <img class="service-img" src="images/web-site.png" alt="">
+            <h2>WEBサイト制作</h2>
+            <p>
+              HPやLPなど、お客様のイメージや<br> 希望のとおりWEBサイトを制作いたします。<br>他にもレスポンシブ対応や<br>アニメーションなども追加可能です。
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="service">
+            <img class="service-img adjustment" src="images/coding.png" alt="">
+            <h2>コーディング</h2>
+            <p>
+              お客様のAdobe XDなどのデザインカンプ<br>を元にコーディングいたします。<br>他にもレスポンシブ対応や<br>アニメーションなども追加可能です。
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="service">
+            <img class="service-img adjustment" src="images/Settings.png" alt="">
+            <h2>サイトの修正</h2>
+            <p>
+              お客様の持っているWebサイトを<br>イメージや希望どうりに修正いたします。<br>例：ここの色を変えて欲しい<br>アニメーションを追加して欲しい
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- お問い合わせフォーム -->
+
+  <div class="contact_p">
+    <h1 class="underline">CONTACT</h1>
+    <p>注意：現在、このフォームは制作途中のためご利用できません</p>
+    <p>お手数をおかけしますが、お仕事のご相談はTwitterやcoconalaからお願いします。</p>
+    <ul>
+      <li>
+        <a href="https://twitter.com/Haku_4089"><i class="sns_icon fab fa-twitter fa-lg"></i></a>
+      </li>
+      <li>
+        <a href="https://coconala.com/services/1520914"><img src="images/ココナラ.png" alt=""></a>
+      </li>
+    </ul>
+  </div>
+  <form action="">
+    <div class="contact">
+      <h2 class="contact_h2">お名前（ニックネーム可）</h2>
+      <input type="text" placeholder="お名前">
+      <h2 class="contact_h2">メールアドレス</h2>
+      <input type="email" placeholder="メールアドレス">
+      <h2 class="contact_h2">お問い合わせ</h2>
+      <textarea placeholder="お問い合わせ内容" name="" id="" cols="80" rows="10"></textarea>
+      <div class="contact_a">
+        <a href="">送信</a>
+      </div>
+    </div>
+  </form>
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <p class="footer_p">
+        ©︎ 2020 ハク
+      </p>
+    </div>
+  </footer>
+  <!--js読み込み-->
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
